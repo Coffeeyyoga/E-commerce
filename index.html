@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura E-commerce by Keren</title>
+    <link rel="icon" type="image/png" href="./asstes/img/iconos/icon-alurayoga.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="asstes/css/normalize.css">
+    <link rel="stylesheet" href="asstes/css/header.css">
+    <link rel="stylesheet" href="asstes/css/header-banner.css">
+    <link rel="stylesheet" href="./asstes/css/login.css">
+    <link rel="stylesheet" href="asstes/css/section.css">
+    <link rel="stylesheet" href="asstes/css/contacto.css">
+    <link rel="stylesheet" href="asstes/css/footer.css">
+    <link rel="stylesheet" href="asstes/css/nuevo-producto.css">
+    <link rel="stylesheet" href="asstes/css/detalle-producto.css">
+    <link rel="stylesheet" href="asstes/css/productos-varios.css">
+    <link rel="stylesheet" href="asstes/css/dark-mode.css">
+    <link rel="stylesheet" href="asstes/css/spinner.css">
+</head>
+<body>
+    <header>
+        <nav class="nav container">
+            <div class="nav__logo-busqueda">
+                <a href="./index.html"><img class="nav__logo" src="asstes/img/logo-alura-yoga.png" alt="logo aluraYoga" width="300" height="100"></a>
+                <form action="#" class="busqueda">
+                    <div class="busqueda__mask">
+                        <input class="busqueda__input" type="tex1t" placeholder="¿Qué deseas buscar?">
+                        <img class="busqueda__icono" src="asstes/img/iconos/icono-busqueda.svg" alt="icono de busqueda">
+                    </div>
+                </form>
+            </div>
+            <div class="nav__icon-login">
+                <div class="btn-flotante">
+                    <img id="btnFlotante" class="btn-img" src="asstes/img/iconos/icono-luna.svg" alt="black mode">
+                </div>
+                <div class="nav__login">
+                    <a href="login.html" class="nav__boton" id="btn-Login">Login</a> 
+                 </div>
+            </div>
+            <div class="nav__logo2">
+                <img class="nav__icono" src="asstes/img/iconos/icono-busqueda.svg" alt="icono de busqueda">
+            </div>
+        </nav>
+        
+        <section class="banner">
+            <div class="banner__flex container">
+                <div class="banner__todo">
+                    <h1 class="banner__title">Marzo Promocional</h1>
+                    <p class="banner__text">Productos seleccionados con 37% de descuento</p>
+                    <a href="#servicios" value="Ver servicios y productos" class="banner__button">Ver productos y servicios</a>
+                </div>
+            </div>
+        </section>
+    </header>    
+        <main class="container">
+            <section class="servicios" id="servicios">
+                <div class="servicios__head">
+                    <h2 class="servicios__title">Clases</h2>
+                    <div class="servicios__enlaces">
+                        <a href="./sectionClases.html" class="servicios__enlace" id="btn-verTodo">Ver Todo</a>
+                        <a href="#"><img src="asstes/img/iconos/arrow_blue.svg" alt="Flecha para ver todo"></a>
+                    </div>
+                </div>
+                <div class="card__grid">
+                    <div class="card">
+                        <div>
+                            <img class="card__imagen" src="asstes/img/section1/clases-de-yoga.svg" alt="postura de yoga">    
+                        </div>
+                        <div class="card__todo">
+                            <p class="card__text">Yoga</p>
+                            <p class="card__price">$ 20,00</p>
+                            <a href="./yoga.html" class="card__enlace" id="btn-verProducto">Ver Producto</a>
+                        </div>
+                    </div><!--.card-clases-->
+                    <div class="card">
+                        <div>
+                            <img class="card__imagen" src="asstes/img/section1/clases-meditacion.svg" alt="persona meditando">    
+                        </div>
+                        <div class="card__todo">
+                            <p class="card__text">Meditación</p>
+                            <p class="card__price">$ 20,00</p>
+                            <a href="./meditacion.html" class="card__enlace" id="btn-verProducto">Ver Producto</a>
+                        </div>
+                    </div><!--.card-clases-->
+                    <div class="card">
+                        <div>
+                            <img class="card__imagen" src="asstes/img/section1/clases-yoga-facial.svg" alt="rostro humano">    
+                        </div>
+                        <div class="card__todo">
+                            <p class="card__text">Yoga facial</p>
+                            <p class="card__price">$ 30,00</p>
+                            <a href="./yogaFace.html" class="card__enlace" id="btn-verProducto">Ver Producto</a>
+                        </div>
+                    </div><!--.card-clases-->
+                    <div class="card">
+                        <div>
+                            <img class="card__imagen" src="asstes/img/section1/clases-de-acroyoga.svg" alt="acroyoga">    
+                        </div>
+                        <div class="card__todo">
+                            <p class="card__text">Acroyoga</p>
+                            <p class="card__price">$ 50,00</p>
+                            <a href="./acroyoga.html" class="card__enlace" id="btn-verProducto">Ver Producto</a>
+                        </div>
+                    </div><!--.card-clases-->
+                    <div class="card">
+                        <div>
+                            <img class="card__imagen" src="asstes/img/section1/masaje-tailandes.svg" alt="masaje">    
+                        </div>
+                        <div class="card__todo">
+                            <p class="card__text">Masaje tailandés</p>
+                            <p class="card__price">$ 110,00</p>
+                            <a href="./masajeTailandes.html" class="card__enlace" id="btn-verProducto">Ver Producto</a>
+                        </div>
+                    </div><!--.card-clases-->
+                    <div class="card">
+                        <div>
+                            <img class="card__imagen" src="asstes/img/section1/clases-yoga-online.svg" alt="yoga online">    
+                        </div>
+                        <div class="card__todo">
+                            <p class="card__text">Yoga online personalizado</p>
+                            <p class="card__price">$ 65,00</p>
+                            <a href="./yogaOnline.html" class="card__enlace" id="btn-verProducto">Ver Producto</a>
+                        </div>
+                    </div><!--.card-clases-->    
+                </div>
+            </section><!--.accesorios-yoga-->
+
+            <section class="accesorios" id="servicios">
+                <div class="accesorios__head">
+                    <h2 class="accesorios__title">Accesorios</h2>
+                    <div class="accesorios__enlaces">
+                        <a href="./sectionAccesorios.html" class="accesorios__enlace" id="btn-verTodo">Ver Todo</a>
+                        <a href="#"><img src="asstes/img/iconos/arrow_blue.svg" alt="flecha para ver todo"></a>
+                    </div>
+                </div>
+                <div class="card__grid">
+                    <div class="card">
+                        <div>
+                            <img class="card__imagen" src="asstes/img/section2/accesorios-mat_de_yoga.svg" alt="mat de yoga">    
+                        </div>
+                        <div class="card__todo">
+                            <p class="card__text">Mat de yoga</p>
+                            <p class="card__price">$ 270,00</p>
+                            <a href="./matDeYoga.html" class="card__enlace" id="btn-verProducto">Ver Producto</a>
+                        </div>
+                    </div><!--.card-Accesorios-->
+                    <div class="card">
+                        <div>
+                            <img class="card__imagen" src="asstes/img/section2/accesorios-bloques-yoga.svg" alt="bloques mas strap">    
+                        </div>
+                        <div class="card__todo">
+                            <p class="card__text">Bloques de yoga + strap</p>
+                            <p class="card__price">$ 95,00</p>
+                            <a href="./bloquesDeYoga.html" class="card__enlace" id="btn-verProducto">Ver Producto</a>
+                        </div>
+                    </div><!--.card-Accesorios-->
+                    <div class="card">
+                        <div>
+                            <img class="card__imagen" src="asstes/img/section2/accesorios-cojin-meditacion.svg" alt="conjín de meditación">    
+                        </div>
+                        <div class="card__todo">
+                            <p class="card__text">Cojín de meditación</p>
+                            <p class="card__price">$ 170,00</p>
+                            <a href="./cojinMeditacion.html" class="card__enlace" id="btn-verProducto">Ver Producto</a>
+                        </div>
+                    </div><!--.card-Accesorios-->
+                    <div class="card">
+                        <div>
+                            <img class="card__imagen" src="asstes/img/section2/accesorios-porta-mat.svg" alt="porta mat">    
+                        </div>
+                        <div class="card__todo">
+                            <p class="card__text">Porta mat</p>
+                            <p class="card__price">$ 45,00</p>
+                            <a href="./portaMat.html" class="card__enlace" id="btn-verProducto">Ver Producto</a>
+                        </div>
+                    </div><!--.card-Accesorios-->
+                    <div class="card">
+                        <div>
+                            <img class="card__imagen" src="asstes/img/section2/accesorios-conjunto-deportivo.svg" alt="ropa deportiva">    
+                        </div>
+                        <div class="card__todo">
+                            <p class="card__text">Conjunto deportivo</p>
+                            <p class="card__price">$ 180,00</p>
+                            <a href="./conjuntoDeportivo.html" class="card__enlace" id="btn-verProducto">Ver Producto</a>
+                        </div>
+                    </div><!--.card-Accesorios-->
+                    <div class="card">
+                        <div>
+                            <img class="card__imagen" src="asstes/img/section2/accesorios-japa-mala.svg" alt="japa mala">    
+                        </div>
+                        <div class="card__todo">
+                            <p class="card__text">Japa mala</p>
+                            <p class="card__price">$ 70,00</p>
+                            <a href="./japaMala.html" class="card__enlace" id="btn-verProducto">Ver Producto</a>
+                        </div>
+                    </div><!--.card-Accesorios-->    
+                </div>
+            </section><!--.newProduct-yoga-->
+
+            <section class="newProduct" id="newProduct">
+                <div class="newProduct__head">
+                    <h2 class="newProduct__title">Nuevos productos</h2>
+                    <div class="newProduct__enlaces">
+                        <a href="sectionNewProducto.html" class="newProduct__enlace" id="btn-verTodo">Ver Todo</a>
+                        <a href="#"><img src="asstes/img/iconos/arrow_blue.svg" alt="flecha para ver todo"></a>
+                    </div>
+                </div>
+                <div class="card__grid">
+                    <div class="card">
+                        <div>
+                            <img class="card__imagen" src="asstes/img/section3/new-product-humificador.svg" alt="humificador">    
+                        </div>
+                        <div class="card__todo">
+                            <p class="card__text">Humificador</p>
+                            <p class="card__price">$ 110,00</p>
+                            <a href="./humificador.html" class="card__enlace" id="btn-verProducto">Ver Producto</a>
+                        </div>
+                    </div><!--.card-newProduct-->
+                    <div class="card">
+                        <div>
+                            <img class="card__imagen" src="asstes/img/section3/new-product-velas.svg" alt="velas encendidas">    
+                        </div>
+                        <div class="card__todo">
+                            <p class="card__text">Velas con olor a vainilla</p>
+                            <p class="card__price">$ 25,00</p>
+                            <a href="./velas.html" class="card__enlace" id="btn-verProducto">Ver Producto</a>
+                        </div>
+                    </div><!--.card-newProduct-->
+                    <div class="card">
+                        <div>
+                            <img class="card__imagen" src="asstes/img/section3/new-product-rodilla-guasha.svg" alt="rodillo y guasha facial">    
+                        </div>
+                        <div class="card__todo">
+                            <p class="card__text">Rodillo + Guasha</p>
+                            <p class="card__price">$ 50,00</p>
+                            <a href="./rodilloYGuasha.html" class="card__enlace" id="btn-verProducto">Ver Producto</a>
+                        </div>
+                    </div><!--.card-newProduct-->
+                    <div class="card">
+                        <div>
+                            <img class="card__imagen" src="asstes/img/section3/new-product-serum.svg" alt="serum facial">    
+                        </div>
+                        <div class="card__todo">
+                            <p class="card__text">Serum facial de vitamina C</p>
+                            <p class="card__price">$ 15,00</p>
+                            <a href="./serumFacial.html" class="card__enlace" id="btn-verProducto">Ver Producto</a>
+                        </div>
+                    </div><!--.card-newProduct-->
+                    <div class="card">
+                        <div>
+                            <img class="card__imagen" src="asstes/img/section3/new-product-taza.svg" alt="taza de porcelana">    
+                        </div>
+                        <div class="card__todo">
+                            <p class="card__text">Taza de porcelana personalizada</p>
+                            <p class="card__price">$ 30,00</p>
+                            <a href="./tazaPersonalizada.html" class="card__enlace" id="btn-verProducto">Ver Producto</a>
+                        </div>
+                    </div><!--.card-newProduct-->
+                    <div class="card">
+                        <div>
+                            <img class="card__imagen" src="asstes/img/section3/new-product-chakras.svg" alt="piedras con colores de los chakras">    
+                        </div>
+                        <div class="card__todo">
+                            <p class="card__text">Piedras de colores (7 chakras)</p>
+                            <p class="card__price">$ 80,00</p>
+                            <a href="./piedrasChakras.html" class="card__enlace" id="btn-verProducto">Ver Producto</a>
+                        </div>
+                    </div><!--.card-newProduct-->    
+                </div>
+            </section>
+        </main>
+    <section class="contacto">
+        <div class="contacto__grid container">
+            <div class="contacto__center">
+                <a href="./index.html"><img class="contacto__img" src="asstes/img/logo-alura-yoga.png" alt="logo aluraYoga"></a>
+            </div>
+            <div class="contacto__enlaces"> 
+                <ul>
+                    <li><a href="#" class="contacto__link">Quienes Somos</a></li>
+                    <li><a href="#" class="contacto__link">Política de Privacidad</a></li>
+                    <li><a href="#" class="contacto__link">Programa de fidelidad</a></li>
+                    <li><a href="#" class="contacto__link">Nuestras tiendas</a></li>
+                    <li><a href="#" class="contacto__link">Quiero ser financiado</a></li>
+                    <li><a href="#" class="contacto__link">Anuncie aquí</a></li>
+                </ul>
+            </div>
+            <div class="contacto__form">
+                <form action="#" class="form">
+                    <h3 class="form__title">Hable con nosotros</h3>
+                    <div class="form__container-inputs">
+                        <div class="form__mask">
+                            <label for="input-name" class="form__name">Nombre</label>
+                            <input type="text" id="input-name" class="form__input" name="nombre" placeholder="Escribe tu nombre" required>
+                        </div>
+                    </div>
+                    <div class="form__container-inputs">
+                        <div class="form__mask">
+                            <textarea class="form__textarea" placeholder="Escribe tu mensaje" name="mensaje" id="textarea" cols="20" rows="10" required></textarea>
+                        </div>
+                    </div>
+                    <input type="submit" value="Enviar Mensaje" class="form__enviar">
+                    <div class="spinner-display spinner-container">
+                        <div class="spinner"></div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <p class="footer__text">Desarrolado por Keren Parra</p>
+        <p class="footer__text2">Proyecto propuesto por Oracle + Alura - 2023</p>
+    </footer>
+    <script src="asstes/js/funcionalidadJS/dark-mode.js"></script>
+    <script src="asstes/js/funcionalidadJS/validacion-contact.js"></script>
+</body>
+</html>

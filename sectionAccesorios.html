@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura E-commerce by Keren</title>
+    <link rel="icon" type="image/png" href="./asstes/img/iconos/icon-alurayoga.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="asstes/css/normalize.css">
+    <link rel="stylesheet" href="asstes/css/header.css">
+    <link rel="stylesheet" href="asstes/css/header-banner.css">
+    <link rel="stylesheet" href="./asstes/css/login.css">
+    <link rel="stylesheet" href="./asstes/css/productos-varios.css">    
+    <link rel="stylesheet" href="./asstes/css/detalle-producto.css">    
+    <link rel="stylesheet" href="asstes/css/contacto.css">
+    <link rel="stylesheet" href="asstes/css/footer.css">
+    <link rel="stylesheet" href="asstes/css/dark-mode.css">
+    <link rel="stylesheet" href="asstes/css/spinner.css">
+</head>
+<body>
+    <header>
+        <nav class="nav container">
+            <div class="nav__logo-busqueda">
+                <a href="./index.html"><img class="nav__logo" src="asstes/img/logo-alura-yoga.png" alt="logo alura week" width="300" height="100"></a>
+                <form action="#" class="busqueda">
+                    <div class="busqueda__mask">
+                        <input class="busqueda__input" type="tex1t" placeholder="¿Qué deseas buscar?">
+                        <img class="busqueda__icono" src="asstes/img/iconos/icono-busqueda.svg" alt="icono de busqueda">
+                    </div>
+                </form>
+            </div>
+            <div class="btn-flotante">
+                <img id="btnFlotante" class="btn-img" src="asstes/img/iconos/icono-luna.svg" alt="icono de luna">
+            </div>
+            <div class="nav__logo2">
+                <img class="nav__icono" src="asstes/img/iconos/icono-busqueda.svg" alt="icono de busqueda">
+            </div>
+        </nav>
+    </header>    
+    <main class="container">
+        <section class="products-admin">
+            <div class="products-admin__head">
+                <h2 class="products-admin__title">Todos nuestros productos</h2>
+                <a class="productos-admin__enlace" href="agregarNewProducto.html">Agregar producto</a>
+            </div>
+            <div class="admin-card__grid">
+                <div class="admin-card">
+                    <div class="admin-card__img-icons">
+                        <img class="admin-card__imagen" src="asstes/img/section2/accesorios-mat_de_yoga.svg" alt="mat de yoga">
+                        <div class="admin-card__icons">
+                            <img class="admin-card__icon" src="asstes/img/iconos/icono-borrar.svg" alt="icono para eliminar">
+                            <img class="admin-card__icon" src="asstes/img/iconos/icono-editar.svg" alt="icono para editar">
+                        </div>    
+                    </div>
+                    <div class="admin-card__todo">
+                        <p class="admin-card__text">Mat de yoga</p>
+                        <p class="admin-card__price">$ 270,00</p>
+                        <a href="./matDeYoga.html" class="card__enlace" id="btn-verProducto">Ver Producto</a>
+                        <!--.<p class="admin-card__serie">#111111</p>-->
+                    </div>
+                </div><!--.card-products-admin-->
+                <div class="admin-card">
+                    <div class="admin-card__img-icons">
+                        <img class="admin-card__imagen" src="asstes/img/section2/accesorios-bloques-yoga.svg" alt="bloques y strap">
+                        <div class="admin-card__icons">
+                            <img class="admin-card__icon" src="asstes/img/iconos/icono-borrar.svg" alt="icono para eliminar">
+                            <img class="admin-card__icon" src="asstes/img/iconos/icono-editar.svg" alt="icono para editar">
+                        </div>    
+                    </div>
+                    <div class="admin-card__todo">
+                        <p class="admin-card__text">Bloques de yoga + strap</p>
+                        <p class="admin-card__price">$ 95,00</p>
+                        <a href="./bloquesDeYoga.html" class="card__enlace" id="btn-verProducto">Ver Producto</a>
+                        <!--.<p class="admin-card__serie">#111111</p>-->
+                    </div>
+                </div><!--.card-products-admin-->
+                <div class="admin-card">
+                    <div class="admin-card__img-icons">
+                        <img class="admin-card__imagen" src="asstes/img/section2/accesorios-cojin-meditacion.svg" alt="cojín de meditación">
+                        <div class="admin-card__icons">
+                            <img class="admin-card__icon" src="asstes/img/iconos/icono-borrar.svg" alt="icono para eliminar">
+                            <img class="admin-card__icon" src="asstes/img/iconos/icono-editar.svg" alt="icono para editar">
+                        </div>    
+                    </div>
+                    <div class="admin-card__todo">
+                        <p class="admin-card__text">Cojín de meditación</p>
+                        <p class="admin-card__price">$ 170,00</p>
+                        <a href="./cojinMeditacion.html" class="card__enlace" id="btn-verProducto">Ver Producto</a>
+                        <!--.<p class="admin-card__serie">#111111</p>-->
+                    </div>
+                </div><!--.card-products-admin-->
+                <div class="admin-card">
+                    <div class="admin-card__img-icons">
+                        <img class="admin-card__imagen" src="asstes/img/section2/accesorios-porta-mat.svg" alt="porta mat">
+                        <div class="admin-card__icons">
+                            <img class="admin-card__icon" src="asstes/img/iconos/icono-borrar.svg" alt="icono para eliminar">
+                            <img class="admin-card__icon" src="asstes/img/iconos/icono-editar.svg" alt="icono para editar">
+                        </div>    
+                    </div>
+                    <div class="admin-card__todo">
+                        <p class="admin-card__text">Porta mat</p>
+                        <p class="admin-card__price">$ 45,00</p>
+                        <a href="./portaMat.html" class="card__enlace" id="btn-verProducto">Ver Producto</a>
+                        <!--.<p class="admin-card__serie">#111111</p>-->
+                    </div>
+                </div><!--.card-products-admin-->
+                <div class="admin-card">
+                    <div class="admin-card__img-icons">
+                        <img class="admin-card__imagen" src="asstes/img/section2/accesorios-conjunto-deportivo.svg" alt="conjunto deportivo">
+                        <div class="admin-card__icons">
+                            <img class="admin-card__icon" src="asstes/img/iconos/icono-borrar.svg" alt="icono para eliminar">
+                            <img class="admin-card__icon" src="asstes/img/iconos/icono-editar.svg" alt="icono para editar">
+                        </div>    
+                    </div>
+                    <div class="admin-card__todo">
+                        <p class="admin-card__text">Conjunto Deportivo</p>
+                        <p class="admin-card__price">$ 180,00</p>
+                        <a href="./conjuntoDeportivo.html" class="card__enlace" id="btn-verProducto">Ver Producto</a>
+                        <!--.<p class="admin-card__serie">#111111</p>-->
+                    </div>
+                </div><!--.card-products-admin-->
+                <div class="admin-card">
+                    <div class="admin-card__img-icons">
+                        <img class="admin-card__imagen" src="asstes/img/section2/accesorios-japa-mala.svg" alt="japa mala">
+                        <div class="admin-card__icons">
+                            <img class="admin-card__icon" src="asstes/img/iconos/icono-borrar.svg" alt="icono para eliminar">
+                            <img class="admin-card__icon" src="asstes/img/iconos/icono-editar.svg" alt="icono para editar">
+                        </div>    
+                    </div>
+                    <div class="admin-card__todo">
+                        <p class="admin-card__text">Japa mala</p>
+                        <p class="admin-card__price">$ 70,00</p>
+                        <a href="./japaMala.html" class="card__enlace" id="btn-verProducto">Ver Producto</a>
+                        <!--.<p class="admin-card__serie">#111111</p>-->
+                    </div>
+                </div><!--.card-products-admin-->
+   
+            </div>
+        </section>    
+    </main>
+    <section class="contacto">
+        <div class="contacto__grid container">
+            <div class="contacto__center">
+                <a href="./index.html"><img class="contacto__img" src="asstes/img/logo-alura-yoga.png" alt="logo aluraWeek"></a>
+            </div>
+            <div class="contacto__enlaces"> 
+                <ul>
+                    <li><a href="#" class="contacto__link">Quienes Somos</a></li>
+                    <li><a href="#" class="contacto__link">Política de Privacidad</a></li>
+                    <li><a href="#" class="contacto__link">Programa de fidelidad</a></li>
+                    <li><a href="#" class="contacto__link">Nuestras tiendas</a></li>
+                    <li><a href="#" class="contacto__link">Quiero ser financiado</a></li>
+                    <li><a href="#" class="contacto__link">Anuncie Aquí</a></li>
+                </ul>
+            </div>
+            <div class="contacto__form">
+                <form action="#" class="form">
+                    <h3 class="form__title">Hable con nosotros</h3>
+                    <div class="form__container-inputs">
+                        <div class="form__mask">
+                            <label for="input-name" class="form__name">Nombre</label>
+                            <input type="text" id="input-name" class="form__input" name="nombre" placeholder="Escribe tu nombre" required>
+                        </div>
+                    </div>
+                    <div class="form__container-inputs">
+                        <div class="form__mask">
+                            <textarea class="form__textarea" placeholder="Escribe tu mensaje" name="mensaje" id="textarea" cols="20" rows="10" required></textarea>
+                        </div>
+                    </div>
+                    <input type="submit" value="Enviar Mensaje" class="form__enviar">
+                    <div class="spinner-display spinner-container">
+                        <div class="spinner"></div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <p class="footer__text">Desarrolado por Keren Parra</p>
+        <p class="footer__text2">Proyecto propuesto por Oracle + Alura - 2023</p>
+    </footer>
+    <script src="asstes/js/funcionalidadJS/dark-mode.js"></script>
+    <script src="asstes/js/funcionalidadJS/validacion-contact.js"></script>
+</body>
+</html>
